@@ -10,3 +10,30 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+body{
+    background: #f2d5da54; 
+}
+
+h1 {
+    color: pink;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100px;
+}
+
+li {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.delete-icon {
+    opacity: 0; /* Oculta el ícono por defecto */
+    transition: opacity 0.3s ease; /* Añade una transición suave al cambiar la opacidad */
+  
+    /* Establece el tamaño y el estilo del ícono */
+    font-size: 1rem;
+    cursor: pointer;
+}
+  
+.delete-icon:hover {
+    opacity: 1; /* Muestra el ícono cuando el cursor pasa por encima */
+}
